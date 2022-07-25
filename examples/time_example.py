@@ -6,7 +6,7 @@ from datetime import datetime
 
 def clock(device, deviceId, seconds):
 
-    for _ in xrange(seconds):
+    for _ in range(seconds):
         now = datetime.now()
         hour = now.hour
         minute = now.minute
